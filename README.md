@@ -33,12 +33,10 @@ CUBE is also the environment used by [*DR. WELL*](https://narjesno.github.io/DR.
 
 ## Key Features
 
-- **Embodied multi-agent cooperation**
+- **Embodied multi-agent cooperation at scale**
 - **Symbolic + primitive action layers**
-- **PettingZoo-parallel compatible**
 - **Curriculum controlled by a single parameter**
-- **Numba-accelerated simulation**
-- **Rich symbolic feedback concepts**
+- **Rich symbolic feedback concepts for customized feedback**
 
 ## Citation
 
