@@ -2,41 +2,44 @@
 
 **Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents**
 
-> **Heads up!** CUBE is currently undergoing cleanup to make the codebase more polished and developer-friendly. The environment is fully functional, but some components are still being streamlined. Feel free to explore and experiment—just keep in mind that things are still evolving.
+> **Heads up!** CUBE is currently undergoing cleanup to make the codebase more polished and developer-friendly. The environment is functional, but some components are still being streamlined. Feel free to explore and experiment, keeping in mind that things are still evolving.
 
 ## Overview
 
-**CUBE** is a lightweight, scalable, and interpretable environment for studying **embodied cooperation** among LLM agents, RL agents, and hybrid neurosymbolic systems.
+**CUBE** is a lightweight, scalable, and interpretable environment for studying **cooperative intelligence** in LLM agents, RL agents, and hybrid neurosymbolic systems at scale.
 
-Agents operate in a 2D grid world and must **push weighted blocks** into a goal region while dealing with:
+Existing multi-agent benchmarks often involve only a few agents or require many agents without meaningful cognitive demands. CUBE fills this gap by introducing tasks where **difficulty grows with the number of agents**, requiring individual reasoning ability and genuine multi-agent cooperation.
 
-- congestion  
-- collisions  
-- force requirements  
+Agents operate in a 2D grid world and must **push weighted blocks** into a goal region while coordinating under embodied constraints such as:
+
+- congestion
+- collisions
+- force requirements
 - block-chain
 - agent-chain
-- environment dynamics (changing conditions)
+- dynamic environmental uncertainty
 
-CUBE uses a **dual-layer design**:
+CUBE uses a **dual-layer design** that exposes and tests cooperative cognition:
 
-- A **primitive layer** that handles grid actions and physical dynamics  
-- A **symbolic layer** that provides high-level actions such as `move_to_block`, `rendezvous`, `push_block`, and `wait_agents`, making it natural for LLM planning
+- A **primitive layer** governing grid actions and physical dynamics
+- A **symbolic layer** offering higher-level actions such as `move_to_block`, `rendezvous`, `push_block`, and `wait_agents`, making it natural for LLM-based planning and communication
 
-A single parameter **n** determines grid size, team size, and block distribution, producing a transparent and reproducible **difficulty curriculum** from small to large team cooperation.
+A single parameter **n** controls grid size, team size, block distribution, and overall complexity, creating a transparent and reproducible **difficulty curriculum** for studying cooperation from small teams to hundreds of agents.
 
-**Paper:**  
-[*CUBE: Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents*](https://happyeureka.github.io/cube/) 
+CUBE is also the environment used by **DR. WELL**, a decentralized neurosymbolic framework that tackles cooperation through joint negotiation, individual planning, and a shared world model for iterative improvement.
 
-CUBE is also the environment used by [*DR. WELL*](https://narjesno.github.io/DR.WELL/), a decentralized neurosymbolic method for embodied multi-agent reasoning.
+**[CUBE](https://happyeureka.github.io/cube/):**
+https://happyeureka.github.io/cube/
 
-
+**[DR. WELL](https://narjesno.github.io/DR.WELL/):**
+https://narjesno.github.io/DR.WELL/
 
 ## Key Features
 
-- **Embodied multi-agent cooperation at scale**
-- **Symbolic + primitive action layers**
-- **Curriculum controlled by a single parameter**
-- **Rich symbolic feedback concepts for customized feedback**
+- **Cooperative intelligence at scale with hundreds of LLM agents**
+- **Symbolic and primitive action layers supporting neurosymbolic reasoning**
+- **Difficulty curriculum controlled by a single parameter**
+- **Rich symbolic feedback for customizable supervision and analysis**
 
 ## Citation
 
