@@ -12,8 +12,6 @@ Existing multi-agent benchmarks often involve only a few agents or require many 
 
 Agents operate in a 2D grid world and must **push weighted blocks** into a goal region while coordinating under embodied constraints such as:
 
-- congestion
-- collisions
 - force requirements
 - block-chain
 - agent-chain
