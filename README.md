@@ -28,10 +28,12 @@ A single parameter **n** controls grid size, team size, block distribution, and 
 
 CUBE is also the environment used by **DR. WELL**, a decentralized neurosymbolic framework that tackles cooperation through joint negotiation, individual planning, and a shared world model for iterative improvement.
 
-**[CUBE](https://happyeureka.github.io/cube/):**
+**[CUBE: Collaborative Multi-Agent Block-Pushing Environment for Collective Planning with LLM Agents](https://happyeureka.github.io/cube/)**
+
 https://happyeureka.github.io/cube/
 
-**[DR. WELL](https://narjesno.github.io/DR.WELL/):**
+**[DR. WELL: Dynamic Reasoning and Learning with Symbolic World Model for Embodied LLM-Based Multi-Agent Collaboration](https://narjesno.github.io/DR.WELL/)**
+
 https://narjesno.github.io/DR.WELL/
 
 ## Key Features
